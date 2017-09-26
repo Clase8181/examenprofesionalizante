@@ -6,7 +6,7 @@
 package Formularios;
 
 import Clases.MySQL;
-import Clases.VehiculoJoel;
+import Clases.hospital_0;
 
 /**
  *
@@ -19,14 +19,12 @@ public class ExamenProfesional {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    MySQL db = new MySQL();
-    db.MySQLConnection("root", "", "inventarios");
-     VehiculoJoel dat=new VehiculoJoel(); 
-         VehiculoJoel dat1=new VehiculoJoel(); 
-        dat1.getColor();
-        dat.getPlaca();
+       
+        hospital_0 hospital_1=new hospital_0 ();
         
         
+        System.out.println(hospital_1.getNombre()+" "+hospital_1.getTipo_sangre()+" "+hospital_1.getEdad());
+   
     }
     }
     
