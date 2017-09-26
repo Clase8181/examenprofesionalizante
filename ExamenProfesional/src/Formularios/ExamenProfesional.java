@@ -6,6 +6,7 @@
 package Formularios;
 
 import Clases.MySQL;
+import Clases.VehiculoJoel;
 
 /**
  *
@@ -20,6 +21,12 @@ public class ExamenProfesional {
         // TODO code application logic here
     MySQL db = new MySQL();
     db.MySQLConnection("root", "", "inventarios");
+     VehiculoJoel dat=new VehiculoJoel(); 
+         VehiculoJoel dat1=new VehiculoJoel(); 
+        dat1.getColor();
+        dat.getPlaca();
+        
+        
     }
     }
     
