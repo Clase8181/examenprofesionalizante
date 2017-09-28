@@ -10,5 +10,5 @@ package Metodos;
  * @author lap_02
  */
 public class ValidarEdad {
-    
+    String nombre;
 }
