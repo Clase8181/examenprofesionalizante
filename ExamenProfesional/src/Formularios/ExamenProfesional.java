@@ -6,7 +6,7 @@
 package Formularios;
 
 import Clases.MySQL;
-import Clases.hospital_0;
+
 
 /**
  *
@@ -20,10 +20,7 @@ public class ExamenProfesional {
     public static void main(String[] args) {
         // TODO code application logic here
        
-        hospital_0 hospital_1=new hospital_0 ();
         
-        
-        System.out.println(hospital_1.getNombre()+" "+hospital_1.getTipo_sangre()+" "+hospital_1.getEdad());
    
     }
     }
